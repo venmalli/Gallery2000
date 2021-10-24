@@ -1,0 +1,173 @@
+<html>
+
+<head>
+    <title>Photo Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h3>
+
+
+        <center>
+            <ul class="menu1">
+                <li class="links"><a href="#home">Home</a></li>
+                <li class="links"><a href="#Grids">Grid view</a></li>
+                <li class="links"><a href="#slides">Slide view</a></li>
+
+            </ul>
+        </center>
+    </h3>
+
+
+    <div class="container">
+        <section id="home">
+            <div class="page-header">
+                <h2 class="text-capitalize"></h2>
+                <img id="img1" src="head.jpg" class="img-responsive">
+            </div>
+        </section>
+        <!---->
+        <hr style="width: 100%;">
+        <section id="Grids">
+            <h2> Grid gallery</h2>
+            <br>
+            <script src=""></script>
+            <div class="row">
+                <img class="img2" src="1.jpg">
+                <img class="img2" src="2.jpg">
+                <img class="img2" src="3.jpg">
+                <img class="img2" src="4.jpg">
+                <br><br>
+            </div>
+            <div class="row">
+                <img class="img2" src="8.jpg">
+                <img class="img2" src="5.jpg">
+                <img class="img2" src="6.jpg">
+                <img class="img2" src="7.jpg">
+            </div>
+
+        </section>
+
+        <br>
+        <br>
+        <hr style="width: 100%;">
+
+
+        <!-- Left and right controls -->
+        <section id="slides">
+            <h2>Sliding gallery</h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+
+                    <div class="item">
+                        <center>
+                            <img class="img-responsive" src="1.jpg" alt="Captain America">
+                            <div class="carousel-caption">
+                                <h3>Confidence</h3>
+                                <p></p>
+                            </div>
+                        </center>
+                    </div>
+
+                    <div class="item">
+                        <center>
+                            
+                                <img class="img-responsive" src="2.jpg" alt="Black Panther">
+                           
+                            <div class="carousel-caption">
+                                <h3>Joy</h3>
+                                <p></p>
+                            </div>
+                        </center>
+                    </div>
+
+                    <div class="item">
+                        <center>
+                            <img class="img-responsive" src="3.jpg" alt="Hulk">
+                            <div class="carousel-caption">
+                                <h3>Peace</h3>
+                                <p></p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img class="img-responsive" src="4.jpg" alt="Ironman">
+                            <div class="carousel-caption">
+                                <h3>Love</h3>
+                                <p></p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item active">
+                        <center>
+                            <img class="img-responsive" src="5.jpg" alt="Thanos">
+                            <div class="carousel-caption">
+                                <h3>Brave</h3>
+                                <p></p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img class="img-responsive" src="6.jpg" alt="Thor">
+                            <div class="carousel-caption">
+                                <h3>Abundance</h3>
+                                <p></p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img class="img-responsive" src="7.jpg" alt="Gamora">
+                            <div class="carousel-caption">
+                                <h3>Faith</h3>
+                                <p></p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img class="img-responsive" src="8.jpg" alt="Scarlet">
+                            <div class="carousel-caption">
+                                <h3>Hope</h3>
+                                <p></p>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+        </section>
+        <br><br>.
+    </div>
+
+
+
+</body>
+
+</html>
